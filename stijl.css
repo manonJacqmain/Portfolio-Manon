@@ -1,0 +1,192 @@
+body {
+  width: 200vw;
+  background-color: lightblue;
+  mix-blend-mode: screen;
+  font-family: helvetica;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+h1 {
+  color: white;
+  background-color: white;
+  background: linear-gradient(to right,  #c2daee 0%,#7690c1 100%);
+  transition: opacity 1s;
+  font-size: 1rem;
+  position: fixed;
+
+  height: 5rem;
+}
+a{
+  color: yellow;
+  position: fixed;
+  left: 100rem;
+  font-size: 2rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  animation-name: animatielink1;
+  animation-duration: 1s;
+}
+
+a:nth-child(2) {
+  position: fixed;
+  left: 10rem;
+}
+a:nth-child(3) {
+  position: fixed;
+  left: 20rem;
+}
+a:nth-child(4) {
+  position: fixed;
+  left: 30rem;
+}
+a:nth-child(5) {
+  position: fixed;
+  left: 40rem;
+}
+img {
+  display: block;
+  margin-top: 5rem;
+  background-size: contain;
+}
+
+.foto3 {
+  width: 90rem;
+  height: 60rem;
+}
+.foto4 {
+  width: 45rem;
+  height: 60rem;
+}
+.foto5 {
+  width: 45rem;
+  height: 60rem;
+}
+.foto6 {
+  width: 45rem;
+  height: 60rem;
+}
+.foto7 {
+  width: 45rem;
+  height: 60rem;
+}
+.foto8 {
+  width: 45rem;
+  height: 60rem;
+}
+.familie1 {
+  width: 90rem;
+  height: 60rem;
+}
+.familie2 {
+  width: 45rem;
+  height: 60rem;
+}
+.familie3 {
+  width: 45rem;
+  height: 60rem;
+}
+.familie4 {
+  width: 45rem;
+  height: 60rem;
+}
+.familie5 {
+  width: 45rem;
+  height: 60rem;
+}
+.Studio1 {
+  width: 45rem;
+  height: 60rem;
+}
+.Studio2 {
+  width: 90rem;
+  height: 60rem;
+}
+.Studio3 {
+  width: 45rem;
+  height: 60rem;
+}
+.Studio4 {
+  width: 45rem;
+  height: 60rem;
+}
+.portret1 {
+  width: 60rem;
+  height: 60rem;
+}
+.portret2 {
+  width: 45rem;
+  height: 60rem;
+}
+.portret3 {
+  width: 45rem;
+  height: 60rem;
+}
+.portret4 {
+  width: 60rem;
+  height: 60rem;
+}
+h2 {
+  font-size: 2rem;
+  margin-top: 10rem;
+  margin-left: 40rem;
+}
+h3 {
+  font-size: 2rem;
+  margin-top: 10rem;
+}
+.vraagjes {
+  position: absolute;
+  top: 27rem;
+  margin-left: 3rem;
+}
+h4 {
+  position: absolute;
+  top: 20rem;
+  margin: 3rem;
+  font-size: 3rem;
+}
+@keyframes animatielink1 {
+  0% {
+      transform: scale(0.1);
+      opacity: 0;}
+  60% {
+      transform: scale(1.2);
+      opacity: 1;}
+  100% {
+      transform: scale(1);}
+}
+@supports (grid-area: auto) {
+	/* we weten hier: ondersteuning voor grid-layout */
+
+	@media (min-width: 60rem) {
+		/* een voorbeeld van een media query: hier schrijf je de css die wordt uitgevoerd indien het scherm minstens 800px breedte biedt */
+
+    h1 {
+      color: white;
+      background-color: white;
+      background: linear-gradient(to right,  #c2daee 0%,#7690c1 100%);
+      transition: opacity 1s;
+      font-size: 5rem;
+      position: fixed;
+    }
+
+    a:nth-child(2) {
+      position: fixed;
+      left: 40rem;
+      font-size: 3rem;
+    }
+    a:nth-child(3) {
+      position: fixed;
+      left: 60rem;
+      font-size: 3rem;
+    }
+    a:nth-child(4) {
+      position: fixed;
+      left: 80rem;
+      font-size: 3rem;
+    }
+    a:nth-child(5) {
+      position: fixed;
+      left: 100rem;
+      font-size: 3rem;
+    }
